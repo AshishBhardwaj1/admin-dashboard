@@ -1,24 +1,24 @@
-.artwork{
-display: flex;
-flex: 25%;
-    width: 252px;
-    height: 240px;
-    margin: 10px;
-   
-}.art{
-    margin: 10px;
+.artwork {
+  display: flex;
+  flex: 25%;
+  width: 252px;
+  height: 240px;
+  margin: 10px;
+}
+.art {
+  margin: 10px;
 }
 
-.price-rating{
-    display: flex;
-    justify-content: space-between;
-    font-size: 24px;
-    font :barlow;
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font: barlow;
 }
-.art.img{
-    width: 252px;
-    height: 180px;
+.art.img {
+  width: 252px;
+  height: 180px;
 }
-.details{
-    font-size: 13px;
+.details {
+  font-size: 13px;
 }
