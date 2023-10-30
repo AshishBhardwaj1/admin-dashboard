@@ -1,0 +1,40 @@
+
+
+.profile{
+
+
+margin: 30px;
+}
+.searchbar{
+    display: flex;
+  margin-top: 10px;
+    width: 620px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+ 
+}
+input{
+    border: none;
+}
+.profile-items{
+    
+    width: 620px;
+    height: 600px;
+    background-color: white;
+}
+.description{
+
+    font: normal 14px Gilroy;
+}
+.description>span{
+    color:#FF5E8A;
+}
+.status{
+    display: flex;
+    align-items: center;
+    font: 20px;
+    margin: 10px;
+  
+}

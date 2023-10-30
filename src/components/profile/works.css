@@ -1,0 +1,39 @@
+.seller-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 260px;
+    background-color: #88c2bb;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.seller-button>button{
+    text-align: center;
+    color: white;
+    height: 19px;
+    font:   normal normal 600 16px/19px Gilroy;
+    border: none;
+    background-color: transparent;
+ 
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+    height:126px ;
+    width: 244px;
+    position: relative;
+ 
+
+ 
+}
+.artist-info{
+    display: flex;
+   position: absolute;
+ justify-content: baseline;
+ color: #ffffff;
+ margin-top: 60px;
+}
+.category{
+    font-size: 16px;
+}

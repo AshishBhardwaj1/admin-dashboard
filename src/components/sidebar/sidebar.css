@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    
+}
+
+.logo{
+    font: 32px Mongolian Baiti;
+    width:260px;
+    height:80px;
+    border-radius:10px;
+    text-align:left;
+    background-color:#ffffff;
+    margin-top: 40px;
+  
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+.logo>span{
+    margin-left: 35px;
+}
+
+
+.sidebar-items{
+    margin-top: 30px;
+    background-color: white;
+    width: 260px;
+    height: 707px;
+    color: #8d8d8d;
+    font: 19px Semibold;
+    margin-left: 2rem;
+  
+
+}
+.sidebar-item>img{
+    height: 16px;
+    width: 17px;
+}
+.sidebar-item{
+gap: 1rem;
+margin:20px;
+
+display: flex;
+height: 2rem;
+
+}
+.sidebar-item:hover{
+    cursor: pointer;
+  
+    color: black;
+}
+.sidebar-item:active{
+color: black;
+border-left: 1px solid#88c2bb ;
+}
