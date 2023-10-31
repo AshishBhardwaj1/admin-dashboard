@@ -40,7 +40,9 @@ const Profile = () => {
       <div className="searchbar">
         <img src={search} alt="" />{" "}
         <input type="search" name="" id="" placeholder="search here" />
-        <img src={filter} alt="" /> <span> filters</span>
+    
+    <img src={filter} alt="" /> <span> filters</span>
+       
       </div>
 
       {timeline.map((items) => (
@@ -48,10 +50,14 @@ const Profile = () => {
           <div className="profile-item">
             <div className="imgprofile">
               <img src={items.profileimg} alt="" />
-              <span> {items.name} </span>
-              <span>{items.profiledes} </span>
             </div>
+              <div className="user-info">
 
+              <div style={{fontSize:"20px"}} > {items.name} </div>
+              <div style={{fontSize:"14px" ,color:"#8d8d8d"}}>{items.profiledes} </div>
+              </div>
+
+          </div>
             <p className="description">
               {" "}
               {items.description} <span> Read More </span>{" "}
@@ -60,17 +66,16 @@ const Profile = () => {
             <img src={items.mainimg} alt="" />
 
             <div className="status">
-              <div className="like">
+              <div className="stats">
                 <img src={heart} alt="" /> <span>{items.likes} </span>
               </div>
-              <div className="comment">
+              <div className="stats">
                 <img src={comment} alt="" /> <span> {items.comments} </span>
               </div>
-              <div className="share">
+              <div className="stats">
                 <img src={share} alt="" /> <span>{items.share} </span>
               </div>
             </div>
-          </div>
         </div>
       ))}
 

@@ -13,19 +13,27 @@ margin: 30px;
     background-color: white;
     border-radius: 10px;
     align-items: center;
+    
  
+ 
+}
+.searchbar>img{
+    margin-left: 20px;
 }
 input{
     border: none;
+    width: 450px;
+    padding :5px;
 }
 .profile-items{
-    
+    margin-top: 30px;
     width: 620px;
     height: 600px;
     background-color: white;
+    
 }
 .description{
-
+padding: 10px;
     font: normal 14px Gilroy;
 }
 .description>span{
@@ -35,6 +43,21 @@ input{
     display: flex;
     align-items: center;
     font: 20px;
-    margin: 10px;
+    margin-top: 50px;
+    padding-left: 10px;
   
+}
+
+.stats{
+    margin: 10px;
+    font-size: 20px;
+}
+.profile-item{
+    display: flex;
+    margin: 20px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }

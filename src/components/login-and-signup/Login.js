@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { auth } from '../../firebase-config';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import "./loginsignup.css"
+import { Link } from 'react-router-dom';
+import Registration from './Registration';
 
 const Login = () => {
     const [email ,setEmail] =useState("")
@@ -28,7 +31,10 @@ const Login = () => {
  </form>
   <div>
 
-  {/* <button onClick={logout}>log out</button> */}
+        not signed up? 
+        Register here 
+     
+
   </div>
     </div>
   )

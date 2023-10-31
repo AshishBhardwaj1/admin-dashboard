@@ -50,8 +50,8 @@ const Works = () => {
       </div>
 
       <div className="artists">
-        <span className="category">artist</span>
-        <span className="category">photographers</span>
+        <span className="category">Artist</span>
+        <span className="category" style={{color:"#8d8d8d" ,marginLeft:"10px"}}>Photographers</span>
 
         {artist.map((artists) => (
           <div className="card" key={artists.id}>
@@ -61,9 +61,10 @@ const Works = () => {
             <div className="artist-info">
               <div className="img">
                 <img src={artists.profile} alt="" />
+                <span className="dot"></span>
               </div>
 
-              <div>
+              <div style={{marginLeft:"10px"}}>
                 <div className="name"> {artists.name} </div>
                 <div className="profession"> {artists.tag}</div>
               </div>

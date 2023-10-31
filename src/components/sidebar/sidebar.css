@@ -35,6 +35,7 @@ body{
     height: 707px;
     color: #8d8d8d;
     font: 19px Semibold;
+    padding-top: 20px;
     margin-left: 2rem;
   
 
@@ -45,8 +46,8 @@ body{
 }
 .sidebar-item{
 gap: 1rem;
-margin:20px;
-
+margin-top:20px;
+padding-left: 20px;
 display: flex;
 height: 2rem;
 
@@ -54,9 +55,20 @@ height: 2rem;
 .sidebar-item:hover{
     cursor: pointer;
   
+    border-left:4px solid #88c2bb;
     color: black;
 }
 .sidebar-item:active{
 color: black;
 border-left: 1px solid#88c2bb ;
+}
+.logout{
+
+    color: #88c2bb;
+    position: absolute;
+    bottom: 35px;
+    margin:20px;
+}
+.logout:hover{
+    color: #0f6d62;
 }

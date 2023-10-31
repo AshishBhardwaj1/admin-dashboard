@@ -60,7 +60,8 @@ const Sidebar = () => {
           style={{
             color: "#88c2bb",
             position: "absolute",
-            bottom: "20px",
+            bottom: "35px",
+            margin:"20px"
           }}
         >
           <img src={logout} alt="" />

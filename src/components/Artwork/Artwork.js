@@ -36,7 +36,11 @@ const Artwork = () => {
           <div className="details">{item.details}</div>
           <div className="price-rating">
             <div className="price"> ${item.price} </div>
-            <div className="rating">star</div>
+            <div className="rating"><span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></div>
           </div>
         </div>
       ))}
